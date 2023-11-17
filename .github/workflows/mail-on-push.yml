@@ -1,3 +1,6 @@
+name: Github Actions Emailer
+run-name: Testing out emailer
+on: [push]
 jobs:
   mail_on_push:
     runs-on: ubuntu-latest
