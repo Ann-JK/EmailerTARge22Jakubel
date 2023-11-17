@@ -13,6 +13,6 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Email from ${{github.repository}}
-          body: Hello! Maybe the sixth time is the charm. Event pusher name - ${{github.event.pusher.name}} and commit message ${{github.event.head_commit.message}}
+          body: Hello! Maybe the seventh time is the charm. Event pusher name - ${{github.event.pusher.name}} and commit message ${{github.event.head_commit.message}}
           to: 	jyri.vaitmaa@tthk.ee
           from: Github actions
